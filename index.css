@@ -1,0 +1,18 @@
+
+
+
+.sidebar{
+    background-color: red;
+    width: 20vw;
+    
+}
+.main{
+    background-color: yellow;
+    width: 80vw;
+}
+.container{
+    display: flex;
+}
+.sidebar nav{
+    padding: 70px;
+}
