@@ -2,10 +2,11 @@
 
 
 .sidebar{
+    position: absolute;
     background-color: gray;
-    width: 500px;
+    /* width: 500px; */
     height: 100vh;
-
+   transition: transform 0.3s ease-in;
     
 }
 .main{
@@ -82,12 +83,54 @@ font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
-    margin: 5px;
+    margin: 0 5px;
 }
-.buttons button:hover{
-
+.btn:hover{
+background-color: white;
+color: aquamarine;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
 }
 .sidebar nav li a{
     text-decoration: none;
     color: white;
 }
+@media (max-width:1615px){
+    /* *{
+        background-color: aquamarine;
+    } */
+    /* .sidebarGo{
+        transform: translate(-443px,0px);
+        position: absolute;
+    } */
+    .devPic{
+    display: none;
+}
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 30px;
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+    height: 30px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+/* .devPic{
+    display: none;
+} */
