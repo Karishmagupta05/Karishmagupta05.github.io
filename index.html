@@ -4,45 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karishma Gupta - Web Developer</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f916cae0d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="sidebar sidebarGo">
-      <!-- Karishma Gupta -->
-      <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="main">
-      <div class="hamburger">
-        <img class="ham" src="ham.jpg" alt="" width="30" >
-        <img class="cross" src="cross.jpg" alt="" width="30">
-      </div>
-        <!-- Passionate Full-Stack Developer and hands-on experience in developing scalable websites using a wide range of Front-end and Back-end skills like HTML, CSS, JavaScript, java, etc and knowledge of Data Structures and Algorithms(DSA) -->
-        <div class="infocontainer">
-          <div class="devInfo">
-            <div class="hello">Hi I am </div>
-            <div class="name">Karishma Gupta</div>
-            <div class="about">Full Stack Web Developer</div>
-            <div class="aboutMore"> Passionate Full-Stack Developer and hands-on experience in developing scalable websites using a wide range of Front-end and Back-end skills </div>
-             <div class="buttons">
-             <a> <button class="btn">Download Resume</button></a>
-              <button class="btn">Contact Me</button>
+ <!-- main start -->
+<div class="main">
+     <!-- home section start  -->
+       <section class="home-section align-items-center">
+        <div class="container">
+          <div class="row align-items-center">
+             <div class="home-text">
+                <p>Hello, I'm</p>
+                <h1>Karishma Gupta</h1>
+                <h2>Full Stack Web Developer</h2>
+                <a href="" class="btn">More about me</a>
+                <a href="" class="btn">Portfolio</a>
              </div>
+             <div class="home-img">
+                <div class="img-box">
+                    <img src="img.jpg" alt="">
+                </div>
 
+             </div>
           </div>
-          <div class="devPic"><img src="img.jpg" alt="Karishma Gupta"></div>
+        </div>
+       </section>  
+     <!-- home section end  -->
+
+     <!-- About section start -->
+     <section class="about-section sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="img2.jpg" alt=""  >
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Passionate Full-Stack Developer and hands-on experience in developing scalable websites using a wide range of Front-end and Back-end skills like HTML, CSS, JavaScript, java, etc and knowledge of Data Structures and Algorithms(DSA) </p>
+                    <h3>Skills</h3>
+                    <div class="skills">
+                    <div class="skill-item">html</div>
+                    <div class="skill-item">css</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">java</div>
+                    <div class="skill-item">DSA</div>
+                    <div class="skill-item">MySQL</div>
+                    <div class="skill-item">GitHub</div>
+                    <div class="skill-item">Hibernate</div>
+                    <div class="skill-item">Springboot</div>
+                    <div class="skill-item">AWS</div>
+                </div>
+                <div class="about-tabs">
+                    <button type="button" class="tab-item active" data-target="#education">Education</button>
+                    <button type="button" class="tab-item " data-target="#Certificates">Certificates</button>
+                </div>
+                <!-- Eductation start -->
+                <div class="tab-content active" id="eduction">
+                   <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date"> 02/2022-11/2022</span>
+                        <p>Full Stack Web Development</p>
+                        <h4>Masai School</h4>     
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date"> 07/2017-09/2021</span>
+                        <p>Bachelor of Engineering</p>
+                        <h4>Shri Shankaracharya Engineering College(C.G)</h4>     
+                    </div>
+                    <div class="timeline-item">
+                        <span class="date"> 04/2015-04/2017</span>
+                        <p>Senior secondary school</p>
+                        <h4>Kendriya vidyalaya bilaspur(C.G)</h4>     
+                    </div>
+                   </div>
+                </div>
+                 <!-- Eductation end -->
+
+                 <!-- Certificate start -->
+                 <div class="tab-contect" id="certificate">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">07/2019 - 08/2019</span>
+                                <h4>Python</h4>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- Certificate end -->
+                 <a class="btn" href="resume.pdf">Download Resume</a>
+                 <a class="btn" href="contact.html">Contact me</a>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- About section end -->
+
+     <!-- project start -->
+     <section class="project-section sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- project item start -->
+                <div class="project-item">
+                 <div class="project-item-thumbnail">
+                    <img src="project1.png" alt="">
+                 </div>
+                 <h3 class="project-item-title">Cure fit-clone</h3>
+                 <button class="btn view-project-btn">View Project</button>
+                 <div class="project-item-details">
+                    <div class="description">
+                        <p>cult.fit (formerly cure.fit or Curefit) is a health and fitness company</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created-<span>07/2022</span></li>
+                            <li>technologies used-<span>Html,Css,JavaScript</span></li>
+                            <li>Area of Responsibilty-<span>Executed in under one week , with a team of 5 , I performed on login & register section , landing page, Cart section .</span></li>
+                            <li>project link-<span><a href="https://astounding-scone-73c2d5.netlify.app/" target="_blank">https://astounding-scone-73c2d5.netlify.app/</a></span></li>
+                        </ul>
+                    </div>
+                 </div>
+                </div>
+                    <!-- project item end -->
+                    <!-- project item start -->
+                <div class="project-item">
+                    <div class="project-item-thumbnail">
+                       <img src="project2.webp" alt="">
+                    </div>
+                    <h3 class="project-item-title">Lyst -clone</h3>
+                    <button class="btn view-project-btn">View Project</button>
+                    <div class="project-item-details">
+                       <div class="description">
+                           <p>Lyst is a fashion technology company, and premium shopping website</p>
+                       </div>
+                       <div class="general-info">
+                           <ul>
+                               <li>Created-<span>05/2022</span></li>
+                               <li>technologies used-<span>Html,Css,JavaScript</span></li>
+                               <li>Area of Responsibilty-<span>Executed in under 5 days , with a team of 5 , I performed on Women Section.</span></li>
+                               <li>project link-<span><a href="https://harmonious-manatee-3548e0.netlify.app/" target="_blank">https://harmonious-manatee-3548e0.netlify.app/</a></span></li>
+                           </ul>
+                       </div>
+                    </div>
+                   </div>
+                       <!-- project item end -->
+            </div>
+        </div>
+     </section>
+     <!-- project end -->
+</div>
+ <!-- main end -->
+
+ <!-- project detail popup start -->
+<div class="project-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close"><i class="fa-solid fa-xmark"></i></button>
+                <div class="pp-thumbnail">
+                    <img src="project1.png" alt="">
+                </div>
+                <h3>Cure fit-clone</h3>
+            </div>
+            <div class="pp-body">
+                <!-- <div class="project-item-details"> -->
+                    <div class="description">
+                        <p>cult.fit (formerly cure.fit or Curefit) is a health and fitness company</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created-<span>07/2022</span></li>
+                            <li>technologies used-<span>Html,Css,JavaScript</span></li>
+                            <li>Area of Responsibilty-<span>Executed in under one week , with a team of 5 , I performed on login & register section , landing page, Cart section .</span></li>
+                            <li>project link-<span><a href="https://astounding-scone-73c2d5.netlify.app/" target="_blank">https://astounding-scone-73c2d5.netlify.app/</a></span></li>
+                        </ul>
+                    </div>
+                 <!-- </div> -->
+            </div>
         </div>
     </div>
-  </div>
+</div>
+  <!-- project detail popup end -->
+
 </body>
 </html>
-<script src="index.js"></script>
+<script src="script.js"></script>

@@ -10,10 +10,12 @@
     
 }
 .main{
-    background-color: rgb(52, 49, 49);
+    /* background-color: rgb(135, 233, 214); */
+       /* background: url('can.jpg'); */
+       background-color: black;
     color: white;
     width: 90vw;
-    padding: 50px;
+    /* padding: 50px; */
 }
 .container{
     display: flex;
@@ -35,8 +37,11 @@
     display: flex;
     justify-content: space-around;
     /* background-color: blue; */
+    /* background: url('can.jpg'); */
+    /* background: url('contactimg.jpg'); */
     height: 58vh;
     width: 80vw;
+    /* width: 100%; */
     margin: 144px auto;
 }
 .divInfo{
