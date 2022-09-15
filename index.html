@@ -11,16 +11,40 @@
 <body>
  <!-- main start -->
 <div class="main">
+
+    <!-- header start -->
+      <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+               <button type="button" class="nav-toggler">
+                <span></span>
+               </button>
+               <div class="nav">
+                <div class="nav-inner">
+                    <ul>
+                        <li><a href="#home" class="nav-item link-item">Home</a></li>
+                        <li><a href="#about" class="nav-item link-item">About</a></li>
+                        <li><a href="resume.pdf" class="nav-item link-item">Resume</a></li>
+                        <li><a href="#project" class="nav-item link-item">Project</a></li>
+                        <li><a href="contact.html" class="nav-item link-item">Contact</a></li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+        </div>
+      </header>
+    <!-- header end -->
+
      <!-- home section start  -->
-       <section class="home-section align-items-center">
+       <section class="home-section align-items-center active" id="home">
         <div class="container">
           <div class="row align-items-center">
              <div class="home-text">
                 <p>Hello, I'm</p>
                 <h1>Karishma Gupta</h1>
                 <h2>Full Stack Web Developer</h2>
-                <a href="" class="btn">More about me</a>
-                <a href="" class="btn">Portfolio</a>
+                <a href="#about" class="btn link-item">More about me</a>
+                <a href="#project" class="btn link-item">Project</a>
              </div>
              <div class="home-img">
                 <div class="img-box">
@@ -34,7 +58,7 @@
      <!-- home section end  -->
 
      <!-- About section start -->
-     <section class="about-section sec-padding">
+     <section class="about-section sec-padding " id="about">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -42,11 +66,11 @@
                  </div>
             </div>
             <div class="row">
-                <div class="about-img">
+                <!-- <div class="about-img">
                     <div class="img-box">
                         <img src="img2.jpg" alt=""  >
                     </div>
-                </div>
+                </div> -->
                 <div class="about-text">
                     <p>Passionate Full-Stack Developer and hands-on experience in developing scalable websites using a wide range of Front-end and Back-end skills like HTML, CSS, JavaScript, java, etc and knowledge of Data Structures and Algorithms(DSA) </p>
                     <h3>Skills</h3>
@@ -64,10 +88,10 @@
                 </div>
                 <div class="about-tabs">
                     <button type="button" class="tab-item active" data-target="#education">Education</button>
-                    <button type="button" class="tab-item " data-target="#Certificates">Certificates</button>
+                    <button type="button" class="tab-item" data-target="#certificates">Certificates</button>
                 </div>
                 <!-- Eductation start -->
-                <div class="tab-content active" id="eduction">
+                <div class="tab-content active" id="education">
                    <div class="timeline">
                     <div class="timeline-item">
                         <span class="date"> 02/2022-11/2022</span>
@@ -89,7 +113,7 @@
                  <!-- Eductation end -->
 
                  <!-- Certificate start -->
-                 <div class="tab-contect" id="certificate">
+                 <div class="tab-content" id="certificates">
                     <div class="timeline">
                         <div class="timeline-item">
                             <span class="date">07/2019 - 08/2019</span>
@@ -107,7 +131,7 @@
      <!-- About section end -->
 
      <!-- project start -->
-     <section class="project-section sec-padding">
+     <section class="project-section sec-padding" id="project">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -118,7 +142,7 @@
                 <!-- project item start -->
                 <div class="project-item">
                  <div class="project-item-thumbnail">
-                    <img src="project1.png" alt="">
+                    <img src="project.png" alt="">
                  </div>
                  <h3 class="project-item-title">Cure fit-clone</h3>
                  <button class="btn view-project-btn">View Project</button>
@@ -175,11 +199,11 @@
                 <div class="pp-thumbnail">
                     <img src="project1.png" alt="">
                 </div>
-                <h3>Cure fit-clone</h3>
+                <h3></h3>
             </div>
             <div class="pp-body">
                 <!-- <div class="project-item-details"> -->
-                    <div class="description">
+                    <!-- <div class="description">
                         <p>cult.fit (formerly cure.fit or Curefit) is a health and fitness company</p>
                     </div>
                     <div class="general-info">
@@ -189,7 +213,7 @@
                             <li>Area of Responsibilty-<span>Executed in under one week , with a team of 5 , I performed on login & register section , landing page, Cart section .</span></li>
                             <li>project link-<span><a href="https://astounding-scone-73c2d5.netlify.app/" target="_blank">https://astounding-scone-73c2d5.netlify.app/</a></span></li>
                         </ul>
-                    </div>
+                    </div> -->
                  <!-- </div> -->
             </div>
         </div>
