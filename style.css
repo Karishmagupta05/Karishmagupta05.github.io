@@ -548,7 +548,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 15px;
+    margin: 50px 15px;
 
     z-index: 1;
     transition: opacity 0.5s ease-in-out;
@@ -733,6 +733,9 @@ transition: rotate(-45deg);
     .pp-inner{
         padding: 30px 15px;
     }
+    /* .landing_nav{
+        display: none;
+    } */
 }
 @media(max-width:575px){
     .section-title h2,
@@ -748,4 +751,11 @@ transition: rotate(-45deg);
     .pp-header h3{
         font-size: 20px;
     }
+    /* .landing_nav{
+        display: none;
+    } */
 }
+
+/* .landing_nav{
+  margin: 20px;
+} */
