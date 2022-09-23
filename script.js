@@ -91,12 +91,12 @@ document.addEventListener("click" , (e)=>{
             hideSection();
             document.body.classList.add("hide-scrolling");
         }
-        setTimeout(()=>{
-            document.querySelector("section.active").classList.remove("active","fade-out");
-            document.querySelector(e.target.hash).classList.add("active");
-            window.scrollTo(0,0);
-            document.body.classList.add("hide-scrolling");
-            navToggler.classList.remove("hide");
-        },500)
+        // setTimeout(()=>{
+        //     document.querySelector("section.active").classList.remove("active","fade-out");
+        //     document.querySelector(e.target.hash).classList.add("active");
+        //     window.scrollTo(0,0);
+        //     document.body.classList.add("hide-scrolling");
+        //     navToggler.classList.remove("hide");
+        // },500)
     }
 })
