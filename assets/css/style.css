@@ -8115,7 +8115,7 @@ body.template-color-1 {
   display: inline-block; }
   .logo a img {
     transition: 0.3s; 
-    width: 50px;
+    width: 100px;
 }
     @media only screen and (max-width: 767px) {
       .logo a img {
@@ -9377,7 +9377,9 @@ figcaption {
         border: 0;
         vertical-align: middle;
         max-width: 100%;
-        height: auto; }
+        height: 400px;
+      /* border-radius: 30px;  */
+    }
     .slide .thumbnail.box-gradient::before {
       width: 100%;
       height: 100%;
